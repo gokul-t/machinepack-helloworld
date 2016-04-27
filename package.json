@@ -1,0 +1,32 @@
+{
+  "name": "machinepack-helloworld",
+  "version": "1.0.0",
+  "description": "Sample machine pack project",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Helloworld",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^10.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "machinepack": {
+    "friendlyName": "Helloworld",
+    "machineDir": "machines/",
+    "machines": [
+      "say-hello"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokul-toobler/machinepack-helloworld.git"
+  }
+}
