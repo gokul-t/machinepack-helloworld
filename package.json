@@ -1,6 +1,6 @@
 {
   "name": "machinepack-helloworld",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sample machine pack project",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
